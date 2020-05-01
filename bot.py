@@ -24,5 +24,10 @@ async def topic(ctx):
     topic_string = topics[idx]
     await ctx.send(topic_string)
 
+@client.command()
+async def info(ctx):
+    await ctx.send('Use *topic to get a conversation topic')
+
+
 client.run(api_key)
 
