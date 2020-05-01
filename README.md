@@ -1,9 +1,6 @@
 # topic-bot
 Discord bot that suggests topics for conversation when chat is dead
 
-# Usage
-To use in a discord channel, use the command ```!topic```
-
 # How to Contribute
 Provide more conversation topics but keep them SFW (safe for work) and do not include controversial topics such as politics, religion etc. 
 
