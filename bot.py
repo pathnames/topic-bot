@@ -2,7 +2,7 @@ import discord, pathlib, random, os
 from discord.ext import commands 
 
 api_key = os.environ.get('topic-bot')
-client = commands.Bot(command_prefix = '!')
+client = commands.Bot(command_prefix = '*')
 
 #Array to hold all the topics:
 topics = []
